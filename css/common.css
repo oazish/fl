@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body { display: flex; margin: 0; background-color: black; }
+
+nav { position: fixed; top: 0; left: 0; bottom: 0; width: 126px; background-color: #000000; background-image: url("/images/tile_blk.gif"); }
+
+nav a { color: #AD0000; }
+
+nav a:active { color: #8000FF; }
+
+nav a:visited { color: #FF6300; }
+
+.root { margin-left: 126px; flex-grow: 1; }
+
+.root .header { position: fixed; top: 0; right: 0; left: 126px; height: 100px; padding: 4px; }
+
+.root .main { min-height: 100%; padding: 10px; padding-top: 110px; }
+
+/*# sourceMappingURL=common.css.map */
